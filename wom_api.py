@@ -22,8 +22,6 @@ async def main() -> None:
               
     await client.close()
 
-async def add(id, team):
-    
 
 if __name__ == "__main__":
     asyncio.run(main())
